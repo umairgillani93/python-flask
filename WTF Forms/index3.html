@@ -1,0 +1,18 @@
+<h1>Welcome to the Puppy Survery</h1>
+<form method="POST">
+  {{form.hidden_tag()}}
+  {{form.breed.label}} {{form.breed}}
+  <br>
+  {{form.adopted.label}} {{form.adopted}}
+  <br>
+  {{form.mood.label}} {{form.mood}}
+  <br>
+  {{form.food_choice.label}} {{form.food_choice}}
+  <br>
+  Any other feedback?
+  <br>
+  {{form.feedback}}
+  <br>
+  {{form.submit()}}
+
+</form>

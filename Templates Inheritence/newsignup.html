@@ -1,0 +1,19 @@
+{% extends 'newbase.html' %}
+
+{% block content%}
+<div class="jumbotron">
+  <h1>Hi! Welcome to the sign up page!</h1>
+  <p>Fill out the form given below</p>
+
+  <form action="{{ url_for('newthankyou')}}">
+    <label for="first">First Name</label>
+    <input type="text" name="first" value="">
+    <label for="last">Last Name</label>
+    <input type="text" name="last" value="">
+    <input type="submit" name="" value="Submit Form">
+
+  </form>
+
+</div>
+
+{% endblock %}

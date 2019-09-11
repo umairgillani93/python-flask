@@ -1,0 +1,12 @@
+{% extends 'newbase.html' %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1>Hello There!</h1>
+  <p> Click the link below for sign up to BuyFerraries.com</p>
+  <p>Fill the form carefully! Notice we don't save any users info!</p>
+  <a href="{{ url_for('newsignup')}}">Sign up here</a>
+
+</div>
+
+{% endblock %}
